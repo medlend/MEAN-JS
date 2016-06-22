@@ -1,0 +1,42 @@
+{
+  "name": "tekbooks",
+  "version": "0.1.0",
+  "description": "Simple shopping cart",
+  "author": "Brad Traversy",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build",
+    "all": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "connect-flash": "^*",
+    "construx": "^*",
+    "construx-copier": "^*",
+    "construx-dustjs": "^*",
+    "construx-less": "^*",
+    "dust-makara-helpers": "^*",
+    "express": "^*",
+    "express-messages": "^*",
+    "kraken-js": "^*",
+    "makara": "^*",
+    "mongodb": "^*",
+    "mongoose": "^*",
+    "requirejs": "^*"
+  },
+  "devDependencies": {
+    "grunt": "^*",
+    "grunt-cli": "^*",
+    "grunt-config-dir": "^*",
+    "grunt-contrib-clean": "^*",
+    "grunt-contrib-jshint": "^*",
+    "grunt-contrib-less": "^*",
+    "grunt-contrib-requirejs": "^*",
+    "grunt-copy-to": "^*",
+    "grunt-dustjs": "^*",
+    "grunt-makara-amdify": "^*",
+    "grunt-mocha-cli": "^*",
+    "mocha": "^*",
+    "supertest": "^*"
+  }
+}
